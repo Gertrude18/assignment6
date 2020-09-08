@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Javascript</h1>
+        <p>Strings are written with quotes.</p>
+        <p>Numbers are written without quotes.</p>
+
+        <p id="demo"></p>
+        <p id = "concat"></p>
+        <p id="operation"></p>
+
+        <script>
+        var pi = 3.14;
+        var person = "John Doe";
+        var answer = '5';
+        var newadd = "6" + 4 + 5;
+        var x = 10;
+        var y = 5;
+
+        prompt("Please input the list of items");
+        document.getElementById("demo").innerHTML =
+        pi + "<br>" + person;
+
+        document.getElementById("concat").innerHTML = 
+        "This is your username " + answer; 
+
+        document.getElementById("concat").innerHTML =
+        newadd;
+
+        document.getElementById("concat").innerHTML =
+        x !== y;
+
+        </script>
+
+    </body>
+</html>
